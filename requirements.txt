@@ -1,0 +1,4 @@
+taichi==0.7.10
+open3d
+numpy
+matplotlib
