@@ -3,6 +3,7 @@
 Implementation of [FEPR: Fast Energy Projection for Real-Time Simulation of Deformable
 Objects](https://www.cs.utah.edu/~ladislav/dinev18FEPR/dinev18FEPR.pdf) using the [Taichi](https://taichi.readthedocs.io/en/stable/install.html) Framework.
 
+<img src="demos/gifs/demo.gif" alt= “” width="70%">
 
 
 ## Run
@@ -60,6 +61,13 @@ We use Tetrahedron discretization for our simulation.
 
 ---
 ## <a name=demos></a> Demos
+
+![Exploding example, not using fepr](demos/gifs/not_using_fepr.gif)
+*Without FEPR*
+
+![stable example, using fepr](demos/gifs/using_fepr.gif)
+*Using FEPR*
+
 
 All demos can be found in the `demos/` subfolder.
 
